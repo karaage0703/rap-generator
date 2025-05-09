@@ -1,0 +1,12 @@
+[project]
+name = "rap-generator"
+version = "0.1.0"
+description = "ウェブサイトから韻の情報を収集し、それに基づいてラップの歌詞を生成するツール"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "mcp[cli]>=1.7.1",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+]
