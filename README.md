@@ -21,10 +21,9 @@ pip install uv
 ```sh
 git clone https://github.com/yourusername/rap-generator.git
 cd rap-generator
-uv venv
+uv sync
 source .venv/bin/activate  # Unix系の場合
 # .venv\Scripts\activate  # Windowsの場合
-uv pip install -r requirements.txt
 ```
 
 ---
