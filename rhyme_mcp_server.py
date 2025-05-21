@@ -9,7 +9,8 @@ from mcp.server.fastmcp import FastMCP
 # --------------------------------------------------
 # データ読み込み
 # --------------------------------------------------
-DATA_PATH = Path("data/in_note_rhymes.csv")
+# DATA_PATH = Path("data/in_note_rhymes.csv") #フルサイズのcsvを作成した場合はそちらを指定
+DATA_PATH = Path("data/in_note_rhymes_compressed.csv")
 df = pd.read_csv(DATA_PATH)
 
 # target_word ➜ [(rhyme_word, reading, n_chars), ...]
