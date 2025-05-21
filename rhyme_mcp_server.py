@@ -24,7 +24,7 @@ mcp = FastMCP("rhyme_server")
 
 
 @mcp.tool()
-def get_rhymes(word: str, top_k: int | None = 50) -> List[Tuple[str, str]]:
+def get_rhymes(word: str, top_k: int | None = 100) -> List[Tuple[str, str]]:
     """
     指定した単語と韻を踏める候補 (rhyme_word, reading) を返す。
 
