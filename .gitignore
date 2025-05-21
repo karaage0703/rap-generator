@@ -10,4 +10,5 @@ wheels/
 .venv
 
 # Data
-data/*.csv
+data/in_note_rhymes.csv
+rhyme_scrape.log
